@@ -1,0 +1,57 @@
+{
+  "pages": [
+    
+    "pages/test_page/test_page",
+    "pages/history_page/history_page",
+    "pages/settings_page/settings_page",
+    
+    
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "custom-tab-bar/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFB74D"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#31869B",
+    "fontWeight":"bold",
+    "list": [
+      {
+        "current": 0,
+        "pagePath": "pages/test_page/test_page",
+        "text": "首页",
+        "iconPath": "imgs/main_large.png",
+        "selectedIconPath": "imgs/main_large.png"
+      },
+      {
+        "current": 1,
+        "pagePath": "pages/history_page/history_page",
+        "text": "历史记录",
+        "iconPath": "imgs/history.png",
+        "selectedIconPath": "imgs/history.png"
+      },
+      {
+        "current": 2,
+        "pagePath": "pages/settings_page/settings_page",
+        "text": "设置",
+        "iconPath": "imgs/option.png",
+        "selectedIconPath": "imgs/option.png"
+      }
+    ]
+  },
+
+  "usingComponents": {
+    "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index"
+  }
+
+}

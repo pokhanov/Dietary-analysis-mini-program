@@ -1,0 +1,44 @@
+<view class="page_container">
+  <image src="/imgs/carrot.png" mode="top" class="top_img">
+  </image>
+
+  <scroll-view 	scroll-y="True" class="scroll-container">
+    <l-card type="primary" 
+            image="/imgs/food2.jpg"
+            image-mode="top"
+            title="千层面、苹果派">
+        <!-- 此处为content -->
+        <view class="content">
+        碳水化合物和糖分摄入过多，纤维、维生素和矿物质可能不足
+        </view>
+    </l-card>
+
+    <view class="single_card_container">
+    <l-card type="primary" 
+            image="/imgs/food1.jpg"
+            image-mode="top"
+            title="茶泡饭、炸鸡块">
+        <!-- 此处为content -->
+        <view class="content">
+          可能导致脂肪和碳水化合物摄入过多，炸鸡块尤甚。而膳食纤维、维生素和矿物质可能摄入不足，因茶泡饭和年糕营养相对单一。建议饮食多样化，保持营养均衡。
+        </view>
+    </l-card>
+  </view>
+  </scroll-view>
+
+  <view class="button_group">
+    <button  class="btn" size="mini">
+    <image src="/imgs/相机.png" class="btn_icon1"></image>
+    导入图片
+    </button>
+
+      <button  class="btn" size="mini">
+        <image src="/imgs/订单.png" class="btn_icon2"></image>
+        饮食建议
+      </button>
+  </view>
+
+
+
+
+</view>
